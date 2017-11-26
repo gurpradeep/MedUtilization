@@ -11,7 +11,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 
-#####Loading dataset from File####################
+#####Loading dataset from File#####################
 filename = "MedicareProcessed.csv"
 #names = ['National Provider Identifier', 'Organization Name', 'Credentials', 'Gender', 'Entity Code', 'City', 'Zip Code', 'State Code', 'Country Code', 'Provider Type', 'Medicare Participation', 'Place of Service', 'HCPCS Code', 'HCPCS Description', 'HCPCS Drug Indicator', 'Number of Services', 'Number of Medicare Beneficiaries', 'Number of Medicare Beneficiary/Day Services', 'Average Medicare Allowed Amount', 'Standard Deviation of Medicare Allowed Amount', 'Average Submitted Charge Amount', 'Standard Deviation of Submitted Charge Amount', 'Average Medicare Payment Amount', 'Standard Deviation of Medicare Payment Amount']
 names = ['Gender', 'Entity Code', 'State Label', 'Provider Label', 'Place of Service', 'HCPCS Code', 'HCPCS Drug Indicator', 'Number of Services', 'Number of Medicare Beneficiaries', 'Average Medicare Allowed Amount', 'Average Submitted Charge Amount', 'Average Medicare Payment Amount']
